@@ -1,0 +1,1 @@
+rootProject.name = "gradle-curseforge-publish"
