@@ -51,7 +51,8 @@ public enum class MinecraftVersion(
     VERSION_1_19_SNAPSHOT(1, 19, 0, true),
     VERSION_1_19         (1, 19, 0),
     VERSION_1_19_1       (1, 19, 1),
-    VERSION_1_19_2       (1, 19, 2);
+    VERSION_1_19_2       (1, 19, 2),
+    VERSION_1_19_3       (1, 19, 3);
 
     override fun toString(): String = buildString {
         append("$major.$minor")
